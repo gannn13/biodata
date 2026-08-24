@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gandi Armana Tarigan | Personal Website</title>
+  <meta name="description" content="Website biodata pribadi Gandi Armana Tarigan" />
+
+  <!-- Google Fonts: Poppins (heading) & Inter (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="navbar" id="navbar">
+    <div class="navbar__inner">
+      <a href="#home" class="navbar__brand">GA<span>T</span></a>
+
+      <nav class="navbar__nav" id="navMenu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#hobbies" class="nav-link">Hobbies</a>
+        <a href="#achievement" class="nav-link">Achievement</a>
+        <a href="#gallery" class="nav-link">Gallery</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Hamburger button for mobile -->
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ HOME / HERO SECTION ============ -->
+    <section class="hero" id="home">
+      <div class="hero__bg-shape"></div>
+      <div class="hero__container">
+        <div class="hero__photo-wrap" data-animate="fade-right">
+          <div class="hero__photo-ring">
+            <img src="images/profile.jpg" alt="Foto profil Gandi Armana Tarigan" class="hero__photo" />
+          </div>
+        </div>
+
+        <div class="hero__text" data-animate="fade-left">
+          <p class="hero__eyebrow">Selamat Datang</p>
+          <h1 class="hero__name">Gandi Armana Tarigan</h1>
+          <p class="hero__role">Mahasiswa</p>
+
+          <div class="hero__actions">
+            <a href="#about" class="btn btn--primary">About Me</a>
+            <a href="#contact" class="btn btn--outline">Contact</a>
+          </div>
+        </div>
+      </div>
+
+      <a href="#about" class="hero__scroll-hint" aria-hidden="true">
+        <i class="fa-solid fa-chevron-down"></i>
+      </a>
+    </section>
+
+    <!-- ============ ABOUT ME ============ -->
+    <section class="section" id="about">
+      <div class="section__container">
+        <p class="section__eyebrow" data-animate="fade-up">Tentang</p>
+        <h2 class="section__title" data-animate="fade-up">About Me</h2>
+
+        <div class="about__grid">
+          <div class="about__card" data-animate="fade-up">
+            <div class="about__icon"><i class="fa-solid fa-id-card"></i></div>
+            <div class="about__label">Nama Lengkap</div>
+            <div class="about__value">Gandi Armana Tarigan</div>
+          </div>
+
+          <div class="about__card" data-animate="fade-up">
+            <div class="about__icon"><i class="fa-solid fa-user"></i></div>
+            <div class="about__label">Nama Panggilan</div>
+            <div class="about__value">Gandi</div>
+          </div>
+
+          <div class="about__card" data-animate="fade-up">
+            <div class="about__icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div class="about__label">Tempat Lahir</div>
+            <div class="about__value">Tigapanah</div>
+          </div>
+
+          <div class="about__card" data-animate="fade-up">
+            <div class="about__icon"><i class="fa-solid fa-cake-candles"></i></div>
+            <div class="about__label">Tanggal Lahir</div>
+            <div class="about__value">08 Februari 2007</div>
+          </div>
+
+          <div class="about__card" data-animate="fade-up">
+            <div class="about__icon"><i class="fa-solid fa-venus-mars"></i></div>
+            <div class="about__label">Jenis Kelamin</div>
+            <div class="about__value">Laki-laki</div>
+          </div>
+
+          <div class="about__card" data-animate="fade-up">
+            <div class="about__icon"><i class="fa-solid fa-house"></i></div>
+            <div class="about__label">Domisili</div>
+            <div class="about__value">Desa Suka Sipilihen</div>
+          </div>
+
+          <div class="about__card" data-animate="fade-up">
+            <div class="about__icon"><i class="fa-solid fa-briefcase"></i></div>
+            <div class="about__label">Pekerjaan</div>
+            <div class="about__value">Mahasiswa</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION ============ -->
+    <section class="section section--tinted" id="education">
+      <div class="section__container">
+        <p class="section__eyebrow" data-animate="fade-up">Perjalanan</p>
+        <h2 class="section__title" data-animate="fade-up">Education</h2>
+
+        <div class="timeline">
+          <div class="timeline__line"></div>
+
+          <div class="timeline__item" data-animate="fade-up">
+            <div class="timeline__dot"><i class="fa-solid fa-school"></i></div>
+            <div class="timeline__card">
+              <span class="timeline__tag">Sekolah Dasar</span>
+              <h3 class="timeline__title">SDN 1 Tigapanah</h3>
+            </div>
+          </div>
+
+          <div class="timeline__item" data-animate="fade-up">
+            <div class="timeline__dot"><i class="fa-solid fa-book"></i></div>
+            <div class="timeline__card">
+              <span class="timeline__tag">Sekolah Menengah Pertama</span>
+              <h3 class="timeline__title">SMPN 2 Tigapanah</h3>
+            </div>
+          </div>
+
+          <div class="timeline__item" data-animate="fade-up">
+            <div class="timeline__dot"><i class="fa-solid fa-graduation-cap"></i></div>
+            <div class="timeline__card">
+              <span class="timeline__tag">Sekolah Menengah Atas</span>
+              <h3 class="timeline__title">SMAN 2 Tigapanah</h3>
+            </div>
+          </div>
+
+          <div class="timeline__item timeline__item--highlight" data-animate="fade-up">
+            <div class="timeline__dot timeline__dot--highlight"><i class="fa-solid fa-university"></i></div>
+            <div class="timeline__card timeline__card--highlight">
+              <span class="timeline__tag">Perguruan Tinggi &mdash; Saat Ini</span>
+              <h3 class="timeline__title">Universitas Negeri Medan (UNIMED)</h3>
+              <p class="timeline__desc">
+                Saat ini merupakan mahasiswa Program Studi Ilmu Komputer,
+                Fakultas FMIPA, Universitas Negeri Medan.
+              </p>
+              <div class="timeline__meta">
+                <span><i class="fa-regular fa-calendar"></i> Masuk 2025</span>
+                <span><i class="fa-solid fa-layer-group"></i> Semester 3</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ HOBBIES ============ -->
+    <section class="section" id="hobbies">
+      <div class="section__container">
+        <p class="section__eyebrow" data-animate="fade-up">Kegiatan</p>
+        <h2 class="section__title" data-animate="fade-up">Hobbies</h2>
+
+        <div class="hobby__wrap" data-animate="fade-up">
+          <div class="hobby__card">
+            <div class="hobby__icon"><i class="fa-solid fa-basketball"></i></div>
+            <h3 class="hobby__title">Basket</h3>
+            <p class="hobby__desc">Salah satu aktivitas favorit.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ACHIEVEMENT ============ -->
+    <section class="section section--tinted" id="achievement">
+      <div class="section__container">
+        <p class="section__eyebrow" data-animate="fade-up">Pencapaian</p>
+        <h2 class="section__title" data-animate="fade-up">My Achievement</h2>
+
+        <div class="achievement__card" data-animate="fade-up">
+          <div class="achievement__photo">
+            <img src="images/paskibraka.jpg" alt="Foto Gandi saat menjadi Paskibraka" />
+          </div>
+          <div class="achievement__info">
+            <div class="achievement__badge"><i class="fa-solid fa-flag"></i> Achievement</div>
+            <h3 class="achievement__title">PASKIBRAKA</h3>
+            <p class="achievement__year"><i class="fa-regular fa-calendar-check"></i> Tahun 2022</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ GALLERY ============ -->
+    <section class="section" id="gallery">
+      <div class="section__container">
+        <p class="section__eyebrow" data-animate="fade-up">Dokumentasi</p>
+        <h2 class="section__title" data-animate="fade-up">Gallery</h2>
+
+        <div class="gallery__grid">
+          <div class="gallery__item" data-animate="fade-up">
+            <img src="images/gallery1.jpg" alt="Foto dokumentasi Gandi" data-caption="Dokumentasi" />
+            <div class="gallery__overlay"><i class="fa-solid fa-expand"></i></div>
+          </div>
+
+          <div class="gallery__item" data-animate="fade-up">
+            <img src="images/hiking.jpg" alt="Foto Gandi ketika naik gunung" data-caption="Hiking" />
+            <div class="gallery__overlay"><i class="fa-solid fa-expand"></i></div>
+          </div>
+
+          <div class="gallery__item" data-animate="fade-up">
+            <img src="images/paskibraka.jpg" alt="Foto Gandi ketika menjadi Paskibraka" data-caption="Paskibraka" />
+            <div class="gallery__overlay"><i class="fa-solid fa-expand"></i></div>
+          </div>
+
+          <div class="gallery__item" data-animate="fade-up">
+            <img src="images/picture1.jpg" alt="Foto dokumentasi Gandi 1" data-caption="Dokumentasi 1" />
+            <div class="gallery__overlay"><i class="fa-solid fa-expand"></i></div>
+          </div>
+
+          <div class="gallery__item" data-animate="fade-up">
+            <img src="images/picture2.jpg" alt="Foto dokumentasi Gandi 2" data-caption="Dokumentasi 2" />
+            <div class="gallery__overlay"><i class="fa-solid fa-expand"></i></div>
+          </div>
+
+          <div class="gallery__item" data-animate="fade-up">
+            <img src="images/picture3.jpg" alt="Foto dokumentasi Gandi 3" data-caption="Dokumentasi 3" />
+            <div class="gallery__overlay"><i class="fa-solid fa-expand"></i></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section section--tinted" id="contact">
+      <div class="section__container">
+        <p class="section__eyebrow" data-animate="fade-up">Hubungi</p>
+        <h2 class="section__title" data-animate="fade-up">Contact Me</h2>
+
+        <div class="contact__wrap" data-animate="fade-up">
+          <a href="mailto:gandiarts123@gmail.com" class="contact__card">
+            <div class="contact__icon"><i class="fa-solid fa-envelope"></i></div>
+            <div>
+              <div class="contact__label">Email</div>
+              <div class="contact__value">gandiarts123@gmail.com</div>
+            </div>
+          </a>
+
+          <a href="https://www.instagram.com/ganditrg_/" target="_blank" rel="noopener noreferrer" class="contact__card">
+            <div class="contact__icon"><i class="fa-brands fa-instagram"></i></div>
+            <div>
+              <div class="contact__label">Instagram</div>
+              <div class="contact__value">@ganditrg_</div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <p>&copy; 2026 Gandi Armana Tarigan</p>
+    <p class="footer__small">Personal Website</p>
+  </footer>
+
+  <!-- ============ LIGHTBOX MODAL (for Gallery) ============ -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox__close" id="lightboxClose" aria-label="Tutup">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+    <figure class="lightbox__figure">
+      <img src="" alt="" id="lightboxImg" />
+      <figcaption id="lightboxCaption"></figcaption>
+    </figure>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
